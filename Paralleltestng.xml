@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests">
+  <test name="Test">
+    <classes>
+      <class name="myAR.MYAR_09_uploadExcel"/>
+      <class name="myAR.MYAR_12_AddAudio"/>
+      <class name="myAR.MYAR_13_EditButton"/>
+      <class name="myAR.MYAR_10_Addbutton"/>
+      <class name="myAR.MYAR_11_EditProfile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ParallelSuite -->

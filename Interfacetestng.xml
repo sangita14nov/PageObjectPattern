@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="myMedia.MM_63_VerifyAcceptRequestAndSendMessage"/>
+      <class name="myMedia.MM_65_VerifyRequestAssetRelease"/>
+      <class name="myMedia.MM_54_DownloadAssets"/>
+      <class name="myMedia.MM_84_AddToBasket"/>
+      <class name="myMedia.MM_57_DisapproveAssetsPermissions"/>
+      <class name="myMedia.MM_56_ApproveAssetsPermission"/>
+      <class name="myMedia.MM_59_VerifyCopyAsset"/>
+      <class name="myMedia.MM_73_VerifyUserDenyreleaserequest"/>
+      <class name="myMedia.MM_76_VerifyPrintAssets"/>
+      <class name="myMedia.MM_80_RenameAsset"/>
+      <class name="myMedia.MM_72_Add_assets_to_collection"/>
+      <class name="myMedia.MM_58_VerifyAssetView"/>
+      <class name="myMedia.MM_53_UploadImage"/>
+      <class name="myMedia.MM_78_VerifyExportAsset"/>
+      <class name="myMedia.MM_60_SettingsOnAssets"/>
+      <class name="myMedia.MM_61_VerifySorting"/>
+      <class name="myMedia.MM_64_VerifyDeleteAssetFunctionality"/>
+      <class name="myMedia.MM_83_AddCategoryInterface"/>
+      <class name="myMedia.MM_66_VerifySearchAssets"/>
+      <class name="myMedia.MM_77_Verify_History"/>
+      <class name="myMedia.MM_62_VerifyMoveAsset"/>
+      <class name="myMedia.MM_84_AddSubCategoryInterface"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
